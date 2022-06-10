@@ -1,0 +1,1093 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<script>
+    var ctm = {
+    "Datos": [
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "10662542-5",
+            "Nombre": "UGARTE MORALES LILIANA EUGENIA",
+            "GerenciaSigla": "GREF"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "12213795-3",
+            "Nombre": "SEGOVIA CASTILLO ALDO ANTONIO",
+            "GerenciaSigla": "GMCH"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "9664264-4",
+            "Nombre": "PEÑAILILLO CORREA JEAN GUSTAVO",
+            "GerenciaSigla": "GMCH"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "24165000-6",
+            "Nombre": "GLORIA ACUÑA WILSON",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "25227683-1",
+            "Nombre": "TELMA  ARANCIBIA  MARTINEZ",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "11722147-4",
+            "Nombre": "ROSA FELISA BARRAZA SUARES",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "11721461-3",
+            "Nombre": "SARA ISABEL BARRERA ARAYA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "14309410-3",
+            "Nombre": "BAUTISTA  ARAYA, JOHANNA ELIZABETH",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "23508901-7",
+            "Nombre": "JULIETA CRISTINA CALLE CHOQUE",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "23566111-K",
+            "Nombre": "CASTRO  CAYO, MARITZA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "23387222-9",
+            "Nombre": "YANETH CASTRO  CAYO",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "22616128-7",
+            "Nombre": "LUZ CONSUELO CHAVEZ JULCAMANYAN",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "12581813-7",
+            "Nombre": "MONICA DEL CARMEN CHOQUE  BARTOLO",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "24014696-7",
+            "Nombre": "ELISA CHOQUETUPA FUENTES",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "25732513-K",
+            "Nombre": "CLAURE JALDIN, LISBET",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "12129055-3",
+            "Nombre": "MARIA BERTA CORTES JAUREGUI",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "14500154-4",
+            "Nombre": "JESUS ENRIQUE CRUZ ALVAREZ",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "25384766-2",
+            "Nombre": "FLORES  FELIPE, EMILIANA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "13889828-8",
+            "Nombre": "LORENA SOLEDAD GUERRA VERGARA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "24151905-8",
+            "Nombre": "HILDA  MAMANI  BLANCO",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "24107650-4",
+            "Nombre": "MAMANI  QUISPE, ESTHER",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "25425600-5",
+            "Nombre": "MARTINEZ,DEISI",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "24512530-5",
+            "Nombre": "MARIA GORETTY MENACHO  MONTERO",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "26027556-9",
+            "Nombre": "ALTAGRACIA  MORILLO  DE LA CRUZ",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "26178883-7",
+            "Nombre": "MUÑOZ TORRES, STEFANY MARYOLETH",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "13977495-7",
+            "Nombre": "IVI YARAHIN OLIVARES  PIZARRO",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "10958088-0",
+            "Nombre": "ISABEL DEL CARMEN  ORTIZ MONDACA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "19539201-3",
+            "Nombre": "PALACIOS  TAPIA, ROMINA ANDREA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "25046265-4",
+            "Nombre": "PERCA  CONDORI, VICTORIA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "25808196-K",
+            "Nombre": "RIASCOS  JIMENEZ, MARTHA CECILIA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "25359131-5",
+            "Nombre": "RODRIGUEZ  RAMOS, ELISA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "11930705-8",
+            "Nombre": "MIRIAM DEL CARMEN ROJAS BARRERA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "24630423-8",
+            "Nombre": "YUCRA VILLCA SILVIA ISELA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "15013846-9",
+            "Nombre": "MARNELI ALEJANDRA YUFLA YUFLA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "25177085-9",
+            "Nombre": "ANDREA  ZELAYA IBARRA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "22615698-4",
+            "Nombre": "ZUÑAGUA  QUENCHACA, SUSANA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "12581539-1",
+            "Nombre": "CAMPOS VALLEJOS CARMEN LUISA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "15029897-0",
+            "Nombre": "IVONNE GOMEZ ALFARO",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "18482477-9",
+            "Nombre": "CAMILA FUENTES DIAZ",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "17867508-7",
+            "Nombre": "DIEGO IGNACIO DIAZ COLLAO",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "9330506-K",
+            "Nombre": "MANCILLA REYGADAS EDWIN ADRIAN",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "18826824-2",
+            "Nombre": "CONSTANSA ANDREA CORTES MALUENDA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "18824759-8",
+            "Nombre": "ALEJANDRA  ARAYA  PARADA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "7133595-K",
+            "Nombre": "ARENAS RAMIREZ ROSALIA DEL CARMEN",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "14397416-2",
+            "Nombre": "TERRAZAS FLORES ROXANA VIOLETA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "16154924-k",
+            "Nombre": "MARIA CRISTINA SILVA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "17392772-K",
+            "Nombre": "CORTÉS  ZUNA VIOLETA JENNIFER",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "18654895-7",
+            "Nombre": "ORREGO  ENCELEGRE STEPHANIE DANIELA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "16868204-2",
+            "Nombre": "PAZ  LAGUES FRANCISCO JAVIER",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "19438489-0",
+            "Nombre": "DELGADO SEPULVEDA GABRIELA PAZ",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "17582123-6",
+            "Nombre": "Karen Pacheco",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "15825734-3",
+            "Nombre": "DIAZ CABRERA NATALIE DEL CARMEN",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "18825935-9",
+            "Nombre": "GISSELLE ANDREA COLQUE GONZALEZ",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "19824630-4",
+            "Nombre": "KARINA MOLINA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "20399270-K",
+            "Nombre": "ROJAS OYARCE MACKARENA ALEXANDRA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "17359963-3",
+            "Nombre": "CARDEMIL  OSORIO LUIS ANDRÉS",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "13011144-0",
+            "Nombre": "CONTRERAS HONORES ALEX RODRIGO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "13417235-5",
+            "Nombre": "MALUENDA BARRAZA XIMENA SOLANGE",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "7144297-7",
+            "Nombre": "ROJAS MUÑOZ ALEJANDRO EDUARDO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "15017288-8",
+            "Nombre": "VERGARA ROBLEDO NINFA YELISA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "15016594-6",
+            "Nombre": "ASTUDILLO MARTINEZ SOLEDAD ALEJANDRA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "14109272-3",
+            "Nombre": "CONTRERAS HONORES HANS EDWARD",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "9881004-8",
+            "Nombre": "VILLALOBOS SOZA IVONNE PATRICIA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "16565487-0",
+            "Nombre": "AVALOS BELLOT GUISEL MAKARENA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "12348518-1",
+            "Nombre": "CALDERON ZULETA RUBEN ALEJANDRO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "15982607-4",
+            "Nombre": "REINAGA ABARCA CYNDY FABIOLA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "16057357-0",
+            "Nombre": "ARAPIO BERNAL CARLOS ALBERTO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "9542424-4",
+            "Nombre": "CARDENAS LAURA PAOLA ANDREA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "10962861-1",
+            "Nombre": "GUERRERO SEGOVIA HERNAN ENRIQUE",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "15621368-3",
+            "Nombre": "OLGA PATRICIA ORTIZ ORTIZ",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "13216902-0",
+            "Nombre": "DIAZ OLGUIN NORMA DEL CARMEN",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "19252670-1",
+            "Nombre": "GONZALEZ MAGNATA KARLA HELENA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "12575003-6",
+            "Nombre": "PUELLES TRONCOSO MARGARITA DEL CARMEN",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "18945360-4",
+            "Nombre": "LEPE  VIDAL KATERINE LORENA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "14519076-2",
+            "Nombre": "ZAMORANO OLIVARES ALICIA DEL CARMEN",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "11721795-7",
+            "Nombre": "PINTO PEÑALOZA FABIOLA SOLEDAD",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "13011099-1",
+            "Nombre": "MAMANI GOMEZ JESSICA SOLEDAD",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "9059610-1",
+            "Nombre": "ROJAS ROJAS RUBEN PATRICIO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "18301214-2",
+            "Nombre": "ROJAS BARRERA SERGIO FERNANDO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "15997660-2",
+            "Nombre": "DE LA TORRE FLORES MAURICIO ANTONIO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "16081884-0",
+            "Nombre": "PIZARRO RIOS PABLO ANDRES",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "10487851-2",
+            "Nombre": "RUIZ ESCOBAR GERMAN YERIS",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "13010756-7",
+            "Nombre": "TAPIA VICENTELO YERKA OLAYA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "6961624-0",
+            "Nombre": "HIDALGO MILLA IVAN ARTURO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "14098254-7",
+            "Nombre": "BARBARA GRETEL SALINAS WILSON",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "11377719-2",
+            "Nombre": "PEREZ BARRERA VLADIMIR ALEJANDRO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "10119675-5",
+            "Nombre": "RIOS PIZARRO ATALIBAR FERNANDO",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "15969558-1",
+            "Nombre": "CASTRO ADAOS YEIMY ANDREA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "12582426-9",
+            "Nombre": "NUÑEZ ARAYA SERGIO JAVIER",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "13216511-4",
+            "Nombre": "BRITO GONZALEZ CYNTHIA YARELA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "12613512-2",
+            "Nombre": "ASCUETA AVILES MIGUEL ANGEL",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "13529794-1",
+            "Nombre": "RODRIGUEZ PEÑA PABLO CESAR",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "16565457-9",
+            "Nombre": "ZAPATA PIZARRO FRANCO ESTEBAN",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "18778468-9",
+            "Nombre": "PAUL EDGAR MIÑO PINTO",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "16257216-4",
+            "Nombre": "ROJAS SEPULVEDA LORENA CAROLINA",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "9433975-8",
+            "Nombre": "COFRE GIMENEZ HARRY NESTOR",
+            "GerenciaSigla": "GHDC"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Hospital del Cobre",
+            "RutTrabajador": "19205174-6",
+            "Nombre": "VARAS  BUSTON NICOLE MACKARENA",
+            "GerenciaSigla": ""
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "9061131-3",
+            "Nombre": "ESCOBAR LEAL ALEXEI BISMAR",
+            "GerenciaSigla": "GRH"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "13924504-0",
+            "Nombre": "GARCIA URRUTIA FELIPE ALBERTO",
+            "GerenciaSigla": "GAR"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "8359283-4",
+            "Nombre": "JARA DOMINGUEZ ROBERTO ALEJANDRO",
+            "GerenciaSigla": "GAR"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "11377831-8",
+            "Nombre": "TERRAZAS ARAYA DANIEL ERNESTO",
+            "GerenciaSigla": "GMS&S"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "21633326-8",
+            "Nombre": "PEREZ REYES DANAE GRACIELA",
+            "GerenciaSigla": "GOP"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "18768058-1",
+            "Nombre": "VASQUEZ ORELLANA GUILLERMO JESUS",
+            "GerenciaSigla": "GOP"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "17746222-5",
+            "Nombre": "POBLETE JARA ZABDY SOLANA",
+            "GerenciaSigla": "GEL"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "15680450-9",
+            "Nombre": "GONZALEZ BRITO SEBASTIAN ALFONSO",
+            "GerenciaSigla": "GRMD"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "19445821-5",
+            "Nombre": "MORALES ROMERO CATALINA ANDREA",
+            "GerenciaSigla": "GOP"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "18585014-5",
+            "Nombre": "MARIONI ZAMBRANO NICOLAS ESTEBAN",
+            "GerenciaSigla": "GOP"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "9288387-6",
+            "Nombre": "TORO ARDILES ESMELIN EDWARDS",
+            "GerenciaSigla": "GMS&S"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "13010523-8",
+            "Nombre": "ZAPATA ALDERETE IVAN ALONSO",
+            "GerenciaSigla": "GMCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "10281736-2",
+            "Nombre": "BELLOT MARTINEZ IVONNE CAROLINA",
+            "GerenciaSigla": "GOCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "13529776-3",
+            "Nombre": "CASTRO TERRAZAS MARIO BILL",
+            "GerenciaSigla": "GOCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "11118899-8",
+            "Nombre": "CASTILLO MONARDEZ BRAULIO ANDRES",
+            "GerenciaSigla": "GOCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "12170450-1",
+            "Nombre": "ESPINOZA GONZALEZ ALEX IVAN",
+            "GerenciaSigla": "GEL"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "12619705-5",
+            "Nombre": "CLARO ROSALES ALFREDO ALEJANDRO",
+            "GerenciaSigla": "GAD"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "13743278-1",
+            "Nombre": "VILLARROEL MORENO LUIS SALOMON",
+            "GerenciaSigla": "GMCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "9434420-4",
+            "Nombre": "FUENTES GUZMAN HECTOR EDUARDO",
+            "GerenciaSigla": "GCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "9725382-K",
+            "Nombre": "PIZARRO NAREA HUGO ANTONIO",
+            "GerenciaSigla": "GMCH"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "10184890-6",
+            "Nombre": "CASTRO MALDONADO CARLOS ANTONIO",
+            "GerenciaSigla": "GCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "10772932-1",
+            "Nombre": "IRARRAZABAL SANTANDER WALTER DAVID",
+            "GerenciaSigla": "GMCH"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "11383565-6",
+            "Nombre": "BUGUEÑO RIFFO ABEL EDGARDO",
+            "GerenciaSigla": "GMCH"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "9996647-5",
+            "Nombre": "POBLETE UREN RUBEN SEGUNDO",
+            "GerenciaSigla": "GMS&S"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "10298519-2",
+            "Nombre": "CONTRERAS FAJARDO JAIME ENRIQUE",
+            "GerenciaSigla": "GREF"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "11505715-4",
+            "Nombre": "ESTAY FLORES PATRICIO GIOVANI",
+            "GerenciaSigla": "GFU"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "12801782-8",
+            "Nombre": "LOPEZ VERA GABRIEL EDUARDO",
+            "GerenciaSigla": "GMS&S"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "14352055-2",
+            "Nombre": "HIDALGO CHAVEZ HUMBERTO ANTONIO",
+            "GerenciaSigla": "GMS"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "12575041-9",
+            "Nombre": "GONZALEZ FRIAS GUILLERMO MAURICIO",
+            "GerenciaSigla": "GOCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "13743278-1",
+            "Nombre": "VILLARROEL MORENO LUIS SALOMON",
+            "GerenciaSigla": "GMCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "11291628-8",
+            "Nombre": "MENDOZA JIMENEZ ALVARO ALEJANDRO",
+            "GerenciaSigla": "GOCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "15710665-1",
+            "Nombre": "ALVAREZ PASTEN FREDY HERNAN",
+            "GerenciaSigla": "GMS&S"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "16294653-6",
+            "Nombre": "MARAMBIO CERECEDA ALAN FABRICIO",
+            "GerenciaSigla": "GFU"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "18105742-4",
+            "Nombre": "ORTEGA LIPIAN LUIS FRANCO",
+            "GerenciaSigla": "GFU"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "12691132-7",
+            "Nombre": "LECAROS CARTAGENA LUIS ALBERTO",
+            "GerenciaSigla": "GFU"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "10528829-8",
+            "Nombre": "OLIVARES ROJAS OMAR OSVALDO",
+            "GerenciaSigla": "GEL"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "11467230-0",
+            "Nombre": "BERNAL HERRERA DAVID GUILLERMO",
+            "GerenciaSigla": "GMCH"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Policlinico",
+            "RutTrabajador": "13532262-8",
+            "Nombre": "CASTILLO PERALTA CARINA SOLANGE",
+            "GerenciaSigla": "GEL"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "10910699-2",
+            "Nombre": "ARAYA TORDECILLA ALEJANDRO DAVID",
+            "GerenciaSigla": "GFU"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "17530089-9",
+            "Nombre": "ROMERO CHAU FRANCISCO ALEJANDRO",
+            "GerenciaSigla": "GMCON"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "Centro de Testeo Balmaceda",
+            "RutTrabajador": "10945350-1",
+            "Nombre": "RIVERA VALDES PEDRO MANUEL",
+            "GerenciaSigla": "GMCH"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "13418203-2",
+            "Nombre": "SAIRE SALVA ROBERTO ANDRES",
+            "GerenciaSigla": "GEL"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "15969675-8",
+            "Nombre": "ROMERO ROJAS EDWARD ALFONSO",
+            "GerenciaSigla": "GMCH"
+        },
+        {
+            "FechaExamen": "09/06/2022",
+            "Establecimiento": "RecreaTuVida",
+            "RutTrabajador": "15013488-9",
+            "Nombre": "ROJAS PAREDES RODRIGO JAVIER",
+            "GerenciaSigla": "GMCH"
+        }
+    ]
+}
+
+
+function buscarWeon(){
+    
+    let rut = document.getElementById("txtRut").value;
+    
+    if(rut != '') {
+     let filtro = ctm.Datos.filter( (x) => { return x.RutTrabajador ==  rut } )
+
+     if(filtro[0] != null){
+        document.getElementById("GerenciaSigla").innerHTML = filtro[0].GerenciaSigla
+        document.getElementById("Nombre").innerHTML = filtro[0].Nombre
+        document.getElementById("Establecimiento").innerHTML = filtro[0].Establecimiento
+        document.getElementById("FechaExamen").innerHTML = filtro[0].FechaExamen
+        document.getElementById("RutTrabajador").innerHTML = filtro[0].RutTrabajador 
+     }
+     
+     else {
+        alert("No se encontraron datos para el rut.")
+     }
+    }
+    else{
+        alert("Debe Introducir un rut valido.")
+    }
+}
+
+</script>
+<div class="text-center">
+    
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12">
+                <input type="text" class="form-control" id="txtRut" placeholder="ingrese su rut">
+                <button class="btn btn-primary" onclick="buscarWeon()">
+                    Buscar
+                </button>
+            </div>
+
+
+
+
+        </div>
+
+
+<div class="row">
+
+<div class="col-12">
+
+<table class="table">
+
+<thead>
+
+    <!-- GerenciaSigla: ""
+    Nombre: "BAUTISTA  ARAYA, JOHANNA ELIZABETH"
+    Establecimiento: "Hospital del Cobre"
+    FechaExamen: "09/06/2022"
+    RutTrabajador: "14309410-3" -->
+<tr>
+        <th>GerenciaSigla</th>
+        <th>Nombre</th>
+        <th>Establecimiento</th>
+        <th>FechaExamen</th>
+        <th>RutTrabajador</th>
+    </tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+    <td> <span id="GerenciaSigla" ></span> </td>
+    <td> <span id="Nombre" ></span> </td>
+    <td> <span id="Establecimiento" ></span> </td>
+    <td> <span id="FechaExamen" ></span> </td>
+    <td> <span id="RutTrabajador" ></span> </td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+
+</div>
+
+    </div>
+    
+
+
+
+</div>
